@@ -38,7 +38,8 @@ Sebuah aplikasi **Task Management System** berbasis Laravel yang dirancang untuk
 - Pastikan sudah menginstal composer 
 - Download projek ini sebagai zip / clone 
 - Ekstrak file projek
-- Ubah nama file .env.example menjadi .env
+- Pada folder projek, buka terminal dan jalankan perintah 'composer install' untuk menginstall projek dependency
+- Lalu ubah nama file '.env.example' menjadi '.env'
 - Pada .env, ubah settingan nya sesuai dengan apa yang akan digunakan (seperti db_name, username, host, password dsb.)
 - Jalankan "php artisan migrate" untuk migrasi database nya.
 - Jika sudah, projek sudah dapat dijalankan dengan mengetikan artisan command "php artisan serve".
